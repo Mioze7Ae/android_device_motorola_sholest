@@ -86,7 +86,7 @@ BOARD_SYSTEMIMAGE_MAX_SIZE := $(call image-size-from-data-size,0x0afa0000)
 BOARD_USERDATAIMAGE_MAX_SIZE := $(call image-size-from-data-size,0x0cac0000)
 BOARD_FLASH_BLOCK_SIZE := 131072
 
-HARDWARE_OMX := true
+#HARDWARE_OMX := true
 BUILD_WITH_TI_AUDIO := 1
 BUILD_PV_VIDEO_ENCODERS := 1
 
