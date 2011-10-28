@@ -79,8 +79,10 @@ PRODUCT_PACKAGES += \
     libOMX.TI.WMA.decode \
     libOMX_Core \
     libVendor_ti_omx \
+    libLCML \
     tiwlan.ini \
     dspexec \
+    libbridge \
     overlay.omap3 \
     wlan_cu \
     libtiOsLib \
