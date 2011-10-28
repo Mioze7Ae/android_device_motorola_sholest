@@ -66,6 +66,7 @@ PRODUCT_PACKAGES += \
     sensors.sholest \
     lights.sholest \
     gps.sholest \
+    libOMX.TI.AAC.encode \
     libOMX.TI.AAC.decode \
     libOMX.TI.AAC.encode \
     libOMX.TI.AMR.decode \
@@ -79,10 +80,8 @@ PRODUCT_PACKAGES += \
     libOMX.TI.WMA.decode \
     libOMX_Core \
     libVendor_ti_omx \
-    libLCML \
     tiwlan.ini \
     dspexec \
-    libbridge \
     overlay.omap3 \
     wlan_cu \
     libtiOsLib \
