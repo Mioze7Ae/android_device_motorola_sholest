@@ -428,7 +428,7 @@ service clean_dex /system/bin/sh /system/bin/clean_dex.sh
     user system
     group system 
 
-service ssmgrd /system/xbin/ssmgrd
+service ssmgrd /system/bin/ssmgrd
     class post-zygote_services
     group radio input mot_pwric
     oneshot
@@ -520,7 +520,7 @@ service pvrsrv /system/bin/pvrsrvinit
     user root
     oneshot
 
-service pppd /system/xbin/pppd silent ipparam dun plugin /system/lib/libpppd_plugin.so
+service pppd /system/bin/pppd silent ipparam dun plugin /system/lib/libpppd_plugin.so
     class post-zygote_services
     user root
     disabled
